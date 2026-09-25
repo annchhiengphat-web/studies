@@ -5,8 +5,9 @@ def calculate_average():
     score3 = int(input("Enter your third score: "))
     score4 = int(input("Enter your fourth score: "))
     score5 = int(input("Enter your fifth score: "))
-    return score1 + score2 + score3 + score4 + score5
-x = calculate_average()/5
+    score6 = int(input("Enter your sixth score: "))
+    return score1 + score2 + score3 + score4 + score5 + score6
+x = calculate_average()/6
 print("your average score is", x)
 
 # multiplication table
